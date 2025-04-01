@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  eduhive,
   jobit,
   tripguide,
   threejs,
@@ -45,10 +45,7 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+
   {
     title: "Backend Developer",
     icon: backend,
@@ -116,55 +113,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Backend Developer",
+    company_name: "Abhyaz",
+    //icon: starbucks,
+    //iconBg: "#383E56",
+    date: "February 2025 - March 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Internship which helped me in developing web applications using MERN stack and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Core Team Member",
+    company_name: "SGGS WEB APP GRAPHICS(SWAG) Club",
+    //icon: shopify,
+    //iconBg: "#383E56",
+    date: "Feb 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Superheaded a team of 20+ developers.",
+      "Organized and conducted workshops on Git and development practices.",
+      "Successfully conducted 36 hours national level hackathons thrice.",
+      "Developed and maintained the official website of the club.",
+      
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Co-Lead",
+    company_name: "Google Developers Group",
+   // icon: meta,
+    //iconBg: "#E6DEDD",
+    date: "Sept 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "A global network of passionate developers that fosters learning and collaboration",
+      "Conducted many workshops on AI and Cloud Computing.",
+      "We aim to bring even more opportunities for everyone to learn, innovate and grow in the ever-evolving tech landscape.",
+      
     ],
   },
 ];
@@ -198,16 +184,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Eduhive",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Designed to enhance online learning with interactive features like whiteboard sharing, video calling,  reward system, live polls, in-class notes, and a study timer. Facilitates real-time collaboration between students and educators.",
     tags: [
       {
-        name: "react",
+        name: "MERN",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "socket.io",
         color: "green-text-gradient",
       },
       {
@@ -215,34 +201,34 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: eduhive,
+    source_code_link: "https://github.com/Lakde-Maheshwari/WingsHackathonTeam404Found2025",
   },
   {
-    name: "Job IT",
+    name: "Food Delivery App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Engineered a feature-rich food delivery app using React.js, Redux, Next.js, Node.js, and MongoDB, integrating GraphQL APIs and featuring user authentication (JWT) improving API response time by 40%. .",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MERN",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Asmi-Shetty/food-delivery-MERN.git",
   },
   {
-    name: "Trip Guide",
+    name: "Wanderluster",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A one-stop solution for planning trips with friends and family. It provides AI-driven personalized trip suggestions, travel bookings, and budget tracking. It also offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "nextjs",
@@ -258,7 +244,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Asmi-Shetty/wanderluster.git",
   },
 ];
 
