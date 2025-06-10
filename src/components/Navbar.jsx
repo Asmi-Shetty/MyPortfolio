@@ -312,7 +312,7 @@ const Navbar = () => {
             ))}
           </ul>
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1RzIP-XfeATyHoq2Lp8ZO9JudDC7jCmzg/view?usp=drive_link.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-teal-400 text-white px-4 py-1 rounded hover:bg-teal-400 hover:text-[#0a192f] transition duration-200 text-[14px] font-mono"
@@ -356,7 +356,7 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="/resume.pdf"
+                  href="https://drive.google.com/file/d/1RzIP-XfeATyHoq2Lp8ZO9JudDC7jCmzg/view?usp=drive_link.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-3 py-1 border border-teal-400 rounded hover:bg-teal-400 hover:text-[#0a192f] transition duration-200"

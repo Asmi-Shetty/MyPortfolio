@@ -42,16 +42,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Developer",
     //icon: web,
   },
 
   {
-    title: "Backend Developer",
+    title: "Fullstack Developer",
     //icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Scientist",
     //icon: creator,
   },
 ];
@@ -161,97 +161,51 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "A highly skilled full-stack developer with an eye for detail and a passion for clean, efficient code. Always delivers beyond expectations!.",
-    name: "Sanket Shetty",
-    designation: "Manager",
-    company: "Leap Wallet",
-    //image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "An exceptional problem-solver and a master of both front-end and back-end development. Working with her is always a great experience!.",
-    name: "Tanaya Deshpande",
-    designation: "Electronics engineer",
-    //company: "DEF Corp",
-    //image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "Brilliant developer with a keen understanding of modern web technologies. Always a pleasure to collaborate with!",
-    name: "Apurva Deshpande",
-    designation: "Electronics engineer",
-    //company: "456 Enterprises",
-    //image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// const testimonials = [
+//   {
+//     testimonial:
+//       "A highly skilled full-stack developer with an eye for detail and a passion for clean, efficient code. Always delivers beyond expectations!.",
+//     name: "Sanket Shetty",
+//     designation: "Manager",
+//     company: "Leap Wallet",
+//     //image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "An exceptional problem-solver and a master of both front-end and back-end development. Working with her is always a great experience!.",
+//     name: "Tanaya Deshpande",
+//     designation: "Electronics engineer",
+//     //company: "DEF Corp",
+//     //image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "Brilliant developer with a keen understanding of modern web technologies. Always a pleasure to collaborate with!",
+//     name: "Apurva Deshpande",
+//     designation: "Electronics engineer",
+//     //company: "456 Enterprises",
+//     //image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
-    name: "Eduhive",
-    description:
-      "Designed to enhance online learning with interactive features like whiteboard sharing, video calling,  reward system, live polls, in-class notes, and a study timer. Facilitates real-time collaboration between students and educators.",
-    tags: [
-      {
-        name: "MERN",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "socket.io",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+    title: "See Fruit",
+    description: [
+      "Android app which identifies a fruit and displays nutritional content of the fruit when the phone’s camera is pointed at the fruit.",
+      "The application uses a retrained inception v3 model (retrained only on fruit images).",
+      "This application was inspired from Jian Yang's 'SeeFood' app in Silicon Valley TV series.",
     ],
-    //image: eduhive,
-    source_code_link: "https://github.com/Lakde-Maheshwari/WingsHackathonTeam404Found2025",
+    stack: ["Android", "Tensorflow"],
   },
   {
-    name: "Food Delivery App",
-    description:
-      "Engineered a feature-rich food delivery app using React.js, Next.js, Node.js, and MongoDB and featuring user authentication (JWT) improving API response time by 40%. Designed an intuitive UI with Redux Toolkit for efficient state management.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MERN",
-        color: "pink-text-gradient",
-      },
+    title: "Smart Chatbot",
+    description: [
+      "A Python webapp which uses Deep Learning (LSTMs) to answer human queries. It can be used to reduce human effort in replying to messages and emails while interacting with customers. The chatbot can be trained on any conversational dataset.",
+      "Neural Network architecture: standard encoder/decoder with 2 LSTM layers (hidden size 256).",
     ],
-    //image: jobit,
-    source_code_link: "https://github.com/Asmi-Shetty/food-delivery-MERN.git",
-  },
-  {
-    name: "Wanderluster",
-    description:
-      "A one-stop solution for planning trips with friends and family. It provides AI-driven personalized trip suggestions, travel bookings, and budget tracking. It also offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    //image: tripguide,
-    source_code_link: "https://github.com/Asmi-Shetty/wanderluster.git",
+    stack: ["Python", "LSTM", "Deep Learning"],
   },
 ];
 
-export { services,  experiences, testimonials, projects };
+export { services,  experiences,  projects };

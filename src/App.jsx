@@ -43,11 +43,12 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
+ // Feedbacks,
   Hero,
   Navbar,
-  //Tech,
   Works,
+  SkillsetSection,
+  
   StarsCanvas,
 } from "./components";
 import SplashScreen from "./components/SplashScreen";
@@ -70,9 +71,13 @@ const App = () => {
             </div>
             <About />
             <Experience />
+          
+           
          
             <Works />
-            <Feedbacks />
+           
+            <SkillsetSection />
+           
             <div className="relative z-0">
               <Contact />
               <StarsCanvas />
