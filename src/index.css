@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+body {
+  background-color: #0a192f;
+}
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -13,11 +23,15 @@
   color-scheme: dark;
 }
 
+
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
   display: block;
 }
+
+
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */

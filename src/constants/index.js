@@ -1,28 +1,28 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  eduhive,
-  jobit,
-  tripguide,
-  threejs,
+  //mobile,
+  //backend,
+  //creator,
+  //web,
+  // javascript,
+  
+  // html,
+  // css,
+  // reactjs,
+  
+  // tailwind,
+  // nodejs,
+  // mongodb,
+  // git,
+  // figma,
+  // docker,
+  // meta,
+  // starbucks,
+  // tesla,
+  // shopify,
+  // eduhive,
+  // jobit,
+  // tripguide,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -43,88 +43,94 @@ export const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: web,
+    //icon: web,
   },
 
   {
     title: "Backend Developer",
-    icon: backend,
+    //icon: backend,
   },
   {
     title: "Content Creator",
-    icon: creator,
+    //icon: creator,
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
+// const technologies = [
+//   {
+//     name: "HTML 5",
+//     icon: html,
+//   },
+//   {
+//     name: "CSS 3",
+//     icon: css,
+//   },
+//   {
+//     name: "JavaScript",
+//     icon: javascript,
+//   },
+
+//   {
+//     name: "React JS",
+//     icon: reactjs,
+//   },
+  
+//   {
+//     name: "Tailwind CSS",
+//     icon: tailwind,
+//   },
+//   {
+//     name: "Node JS",
+//     icon: nodejs,
+//   },
+//   {
+//     name: "MongoDB",
+//     icon: mongodb,
+//   },
+
+//   {
+//     name: "git",
+//     icon: git,
+//   },
+//   {
+//     name: "figma",
+//     icon: figma,
+//   },
+//   {
+//     name: "docker",
+//     icon: docker,
+//   },
+// ];
 
 const experiences = [
   {
-    title: "Backend Developer",
-    company_name: "Abhyaz",
+    title: "Software Developer",
+    company_name: "Avijo",
     //icon: starbucks,
     //iconBg: "#383E56",
-    date: "February 2025 - March 2025",
+    date: "April 2025 - July 2025",
     points: [
       "Internship which helped me in developing web applications using MERN stack and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+
+  {
+    title: "Backend Developer",
+    company_name: "RiskGuard Enterprises",
+    //icon: shopify,
+    //iconBg: "#383E56",
+    date: "May 2023 - Present",
+    points: [
+      "During my backend development internship, I contributed to the design, development, and optimization of scalable server-side applications. ",
+      "My role involved collaborating with cross-functional teams, implementing robust APIs, and ensuring seamless data management and security.",
+      "Implemented secure authentication and authorization mechanisms.,"
+      
+    ],
+  },
+
 
   {
     title: "Core Team Member",
@@ -158,27 +164,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "A highly skilled full-stack developer with an eye for detail and a passion for clean, efficient code. Always delivers beyond expectations!.",
+    name: "Sanket Shetty",
+    designation: "Manager",
+    company: "Leap Wallet",
+    //image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "An exceptional problem-solver and a master of both front-end and back-end development. Working with her is always a great experience!.",
+    name: "Tanaya Deshpande",
+    designation: "Electronics engineer",
+    //company: "DEF Corp",
+    //image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Brilliant developer with a keen understanding of modern web technologies. Always a pleasure to collaborate with!",
+    name: "Apurva Deshpande",
+    designation: "Electronics engineer",
+    //company: "456 Enterprises",
+    //image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -201,13 +207,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: eduhive,
+    //image: eduhive,
     source_code_link: "https://github.com/Lakde-Maheshwari/WingsHackathonTeam404Found2025",
   },
   {
     name: "Food Delivery App",
     description:
-      "Engineered a feature-rich food delivery app using React.js, Redux, Next.js, Node.js, and MongoDB, integrating GraphQL APIs and featuring user authentication (JWT) improving API response time by 40%. .",
+      "Engineered a feature-rich food delivery app using React.js, Next.js, Node.js, and MongoDB and featuring user authentication (JWT) improving API response time by 40%. Designed an intuitive UI with Redux Toolkit for efficient state management.",
     tags: [
       {
         name: "react",
@@ -222,7 +228,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    //image: jobit,
     source_code_link: "https://github.com/Asmi-Shetty/food-delivery-MERN.git",
   },
   {
@@ -243,9 +249,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    //image: tripguide,
     source_code_link: "https://github.com/Asmi-Shetty/wanderluster.git",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services,  experiences, testimonials, projects };

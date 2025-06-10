@@ -1,3 +1,4 @@
+
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
@@ -37,29 +38,39 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I'm a skilled and passionate software developer with experience in 
-        JavaScript, and expertise in frameworks like React and Node.js. 
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
-    </>
+
+<div className="w-full bg-[#0a192f] pt-32 pb-60">
+  <div className="max-w-7xl mx-auto -ml-[180px] px-6 sm:px-10 md:px-20">
+  <div className="-ml-2 -mt-[150px]"> {/* Shift left and up */}
+
+    <motion.div variants={textVariant()}>
+      <p className="text-[#64ffda] text-[18px]">Introduction</p>
+      <h2 className="text-white text-[60px] font-bold">Overview.</h2>
+    </motion.div>
+
+    <motion.p
+      variants={fadeIn("", "", 0.1, 1)}
+      className="mt-4 text-[#ccd6f6] text-[17px] leading-[30px]"
+    >
+      I'm a skilled and passionate software developer with experience in 
+      JavaScript, and expertise in frameworks like React and Node.js. 
+      I'm a quick learner and collaborate closely with clients to
+      create efficient, scalable, and user-friendly solutions that solve
+      real-world problems. Let's work together to bring your ideas to life!
+    </motion.p>
+
+    <div className="mt-28 flex flex-wrap gap-10">
+      {services.map((service, index) => (
+        <ServiceCard key={service.title} index={index} {...service} />
+      ))}
+    </div>
+  </div>
+</div>
+</div>
+
+
   );
 };
 
