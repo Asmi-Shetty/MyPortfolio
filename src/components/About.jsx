@@ -50,7 +50,7 @@ const About = () => {
       <h2 className="text-white text-[60px] font-bold">Overview.</h2>
     </motion.div>
 
-    <motion.p
+    {/* <motion.p
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-[#ccd6f6] text-[17px] leading-[30px]"
     >
@@ -59,7 +59,30 @@ const About = () => {
       I'm a quick learner and collaborate closely with clients to
       create efficient, scalable, and user-friendly solutions that solve
       real-world problems. Let's work together to bring your ideas to life!
-    </motion.p>
+
+      Education - Shri Guru Gobind Singh Ji Institute Of Engineering And Technology(SGGS), Nanded.      -B.Tech(2022-2026) in Computer Science Engineering.
+                  Gyan Mata Vidya Vihar, Nanded.                                                        -SSC
+      
+    </motion.p> */}
+
+
+<motion.p
+  variants={fadeIn("", "", 0.1, 1)}
+  className="mt-4 text-[#ccd6f6] text-[17px] leading-[30px]"
+>
+  I'm a skilled and passionate software developer with experience in 
+  JavaScript, and expertise in frameworks like React and Node.js. 
+  I'm a quick learner and collaborate closely with clients to
+  create efficient, scalable, and user-friendly solutions that solve
+  real-world problems. Let's work together to bring your ideas to life!
+  <br /><br />
+  <strong>Education:</strong><br />
+  Shri Guru Gobind Singh Ji Institute Of Engineering And Technology (SGGS), Nanded<br />
+  - B.Tech (2022–2026) in Computer Science Engineering<br /><br />
+  Gyan Mata Vidya Vihar, Nanded<br />
+  - SSC
+</motion.p>
+
 
     <div className="mt-28 flex flex-wrap gap-10">
       {services.map((service, index) => (

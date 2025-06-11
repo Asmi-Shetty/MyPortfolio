@@ -5,7 +5,7 @@ import About from "./About";
 import SkillsetSection from "./SkillsetSection";
 import Experience from "./Experience";
 import Works from "./Works";
-//import Feedbacks from "./Feedbacks";
+import Education from "./Education";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 
@@ -17,7 +17,7 @@ export {
   SkillsetSection,
   Experience,
   Works,
-  //Feedbacks,
+  Education,
   Contact,
   CanvasLoader,
   EarthCanvas, 
