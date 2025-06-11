@@ -59,7 +59,6 @@ const HeroSection = () => {
 
       {/* Profile photo with glow effect behind – shifted to left and enlarged */}
       <div className="absolute top-[25%] right-[15%] z-10 group">
-        {/* Glow effect (behind the image) */}
         <div className="w-80 h-[470px] rounded-lg border-2 border-teal-400 absolute top-4 left-4 z-0" />
 
         {/* Profile Image */}
