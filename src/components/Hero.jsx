@@ -38,7 +38,7 @@ const HeroSection = () => {
         <div className="w-[1px] h-24 bg-[#64ffda]" />
       </div>
 
-      {/* Main content */}
+      {/* Main Content */}
       <div className="relative z-10 flex flex-col justify-center items-start h-full pl-[10%]">
         <p className="text-teal-300 text-[18px]">Hello there!👋 ,</p>
         <h1 className="text-[70px] font-extrabold leading-tight mt-2">
